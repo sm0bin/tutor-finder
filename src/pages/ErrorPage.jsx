@@ -15,7 +15,7 @@ export default function ErrorPage() {
             exit={{ opacity: 0 }}
             id="error-page" className="flex flex-col items-center justify-center my-24 gap-3 space-y-4 w-11/12 mx-auto">
             <Helmet>
-                <title>Tuition Master | Error 404</title>
+                <title>TutorHive | Error 404</title>
             </Helmet>
             <img className="lg:w-1/3 mx-auto" src={img} alt="" />
             {/* <div>

@@ -74,7 +74,7 @@ const ServiceDetails = () => {
             <Toaster />
 
             <Helmet>
-                <title>Tuition Master | Service Details</title>
+                <title>TutorHive | Service Details</title>
             </Helmet>
 
             <div className="my-12 flex overflow-hidden flex-col items-start bg-white border border-gray-200 rounded-lg shadow  w-full hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">

@@ -38,7 +38,7 @@ const AllServices = () => {
             exit={{ opacity: 0 }}
             className="">
             <Helmet>
-                <title>Tuition Master | Services</title>
+                <title>TutorHive | Services</title>
             </Helmet>
 
             <div className="md:flex gap-10 mt-10 items-center">

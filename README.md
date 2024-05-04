@@ -1,6 +1,6 @@
-# Tuition Master Website
+# TutorHive Website
 
-Welcome to the Tuition Master website! This readme.md file provides an overview of the website's features, design, and important information. Please refer to this document for a better understanding of the project.
+Welcome to the TutorHive website! This readme.md file provides an overview of the website's features, design, and important information. Please refer to this document for a better understanding of the project.
 
 ## Key Features
 
@@ -87,7 +87,7 @@ Welcome to the Tuition Master website! This readme.md file provides an overview 
 
 ## Links
 
-- Live Website: [Tuition Master](https://tuition-master-sm.web.app).
-- Server Side Repository: [Tuition Master Server](https://github.com/sm0bin/tuition-master-server).
+- Live Website: [TutorHive](https://tuition-master-sm.web.app).
+- Server Side Repository: [TutorHive Server](https://github.com/sm0bin/tuition-master-server).
 
-Thank you for exploring the Tuition Master website!
+Thank you for exploring the TutorHive website!

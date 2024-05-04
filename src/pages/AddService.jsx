@@ -54,7 +54,7 @@ const AddService = () => {
             exit={{ opacity: 0 }}
             className='min-h-screen'>
             <Helmet>
-                <title>Tuition Master | Add Service</title>
+                <title>TutorHive | Add Service</title>
             </Helmet>
             <Toaster />
             <form onSubmit={handleAddService} id='addServiceForm' className="flex max-w-xl flex-col gap-4 mx-auto mt-20 border shadow rounded-2xl p-12">

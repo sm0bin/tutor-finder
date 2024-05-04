@@ -67,8 +67,8 @@ const Header = () => {
                 <Toaster />
                 <div className="max-w-screen-xl flex flex-col lg:flex-row gap-4 items-center justify-between mx-auto p-4">
                     <NavLink to="/" className="flex items-center gap-1">
-                        <img src="/book-logo.svg" className="h-8" alt="Tuition Master Logo" />
-                        <span className="self-center text-2xl font-bold whitespace-nowrap dark:text-white">Tuition Master</span>
+                        <img src="/book-logo.svg" className="h-8" alt="TutorHive Logo" />
+                        <span className="self-center text-2xl font-bold whitespace-nowrap dark:text-white">TutorHive</span>
                     </NavLink>
                     <button data-collapse-toggle="navbar-dropdown" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>
@@ -132,7 +132,7 @@ const Header = () => {
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
                         {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
-                        <img src="/book-logo.svg" className="h-8" alt="Tuition Master Logo" />
+                        <img src="/book-logo.svg" className="h-8" alt="TutorHive Logo" />
                         <Typography
                             variant="h6"
                             noWrap
@@ -149,7 +149,7 @@ const Header = () => {
                                 textDecoration: 'none',
                             }}
                         >
-                            Tuition Master
+                            TutorHive
                         </Typography>
 
                         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

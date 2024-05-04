@@ -86,7 +86,7 @@ const MyServices = () => {
             exit={{ opacity: 0 }}
             className=" mt-20">
             <Helmet>
-                <title>Tuition Master | My Services</title>
+                <title>TutorHive | My Services</title>
             </Helmet>
             <div className="flex items-start w-full lg:w-1/2">
                 <Player

@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <section className="my-12">
             <Helmet>
-                <title>Tuition Master | Contact</title>
+                <title>TutorHive | Contact</title>
             </Helmet>
             <h2 className="font-bold text-5xl text-blue-500 mb-8 leading-tight">Contact Us</h2>
             <h2 className="font-bold text-3xl text-blue-500 mb-3 mt-12">Get in Touch</h2>

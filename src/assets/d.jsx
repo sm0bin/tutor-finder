@@ -55,12 +55,12 @@ const d = () => {
 
             <p className="text-gray-500 dark:text-gray-400 text-xl mb-4 leading-relaxed">
                 <span className="font-bold text-gray-600">Privacy Policy:</span> <br />
-                At Tuition Master, we are committed to protecting your privacy. We will never share your personal information with third parties without your consent. For more information, please read our Privacy Policy.
+                At TutorHive, we are committed to protecting your privacy. We will never share your personal information with third parties without your consent. For more information, please read our Privacy Policy.
             </p>
 
             <p className="text-gray-500 dark:text-gray-400 text-xl mb-4 leading-relaxed">
                 <span className="font-bold text-gray-600">Terms and Conditions:</span> <br />
-                By using Tuition Master, you agree to our Terms and Conditions. For more information, please read our Terms and Conditions.
+                By using TutorHive, you agree to our Terms and Conditions. For more information, please read our Terms and Conditions.
             </p>
         </div>
     );

@@ -52,7 +52,7 @@ const MySchedules = () => {
         >
             <Toaster />
             <Helmet>
-                <title>Tuition Master | My Schedules</title>
+                <title>TutorHive | My Schedules</title>
             </Helmet>
             <h2 className="font-bold text-3xl text-center mb-12 mt-20">My Booking</h2>
             <div className=" grid grid-cols-1 gap-6 mb-20">

@@ -16,7 +16,7 @@ const Home = () => {
             className="space-y-20 md:space-y-32">
 
             <Helmet>
-                <title>Tuition Master | Home</title>
+                <title>TutorHive | Home</title>
             </Helmet>
             <Hero></Hero>
             <PopularServices></PopularServices>

@@ -61,7 +61,7 @@ const UpdateService = ({ updateService, setOpenModal }) => {
         // <div className='min-h-screen'>
         <form onSubmit={handleUpdateService} id='addServiceForm' className="flex max-w-xl flex-col gap-4">
             <Helmet>
-                <title>Tuition Master | Update Service</title>
+                <title>TutorHive | Update Service</title>
             </Helmet>
             <Toaster />
             <div>
