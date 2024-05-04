@@ -9,7 +9,7 @@ const PopularServices = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        axios.get("https://tuition-master.vercel.app/services")
+        axios.get(`${import.meta.env.VITE_SERVER}/services`)
             .then(res => setServices(res.data));
     }, [services])
     return (

@@ -51,12 +51,12 @@ const router = createBrowserRouter([
       {
         path: "/services",
         element: <AllServices></AllServices>,
-        loader: () => fetch("https://tuition-master.vercel.app/services")
+        loader: () => fetch(`${import.meta.env.VITE_SERVER}/services`)
       },
       {
         path: "/services/:id",
         element: <PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>,
-        loader: ({ params }) => fetch(`https://tuition-master.vercel.app/services/${params.id}`)
+        loader: ({ params }) => fetch(`${import.meta.env.VITE_SERVER}/services/${params.id}`)
       },
       {
         path: "/services/new",
