@@ -6,7 +6,12 @@ const theme = createTheme({
             'Ubuntu',
             'sans-serif'
         ].join(','),
+        body1: {
+            fontSize: '1.25rem',
+            lineHeight: '1.75'
+        },
     },
+
 });
 
 export default theme;
