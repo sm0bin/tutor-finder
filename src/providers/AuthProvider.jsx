@@ -44,12 +44,12 @@ const AuthProvider = ({ children }) => {
             setUser(currentUser);
             setLoading(false);
             if (currentUser) {
-                axios.post(`${import.meta.env.VITE_SERVER}/jwt`, loggedInUser, { withCredentials: true })
+                axios.post(`${import.meta.env.VITE_SERVER}/auth/jwt`, loggedInUser, { withCredentials: true })
                     .then(res => {
                         console.log(res.data);
                     })
             } else {
-                axios.post(`${import.meta.env.VITE_SERVER}/logout`, loggedInUser, { withCredentials: true })
+                axios.post(`${import.meta.env.VITE_SERVER}/auth/logout`, loggedInUser, { withCredentials: true })
                     .then(res => {
                         console.log(res.data);
                     })

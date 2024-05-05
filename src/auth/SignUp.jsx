@@ -1,12 +1,13 @@
 import { useContext, useState } from "react";
 import { AuthContext } from "../providers/AuthProvider";
 import { Toaster, toast } from "react-hot-toast";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion"
 
 const SignUp = () => {
     const { googleSignIn, signUpUser, updateUser } = useContext(AuthContext);
     const [signUpError, setSignUpError] = useState("");
+    const navigate = useNavigate();
 
     const handleSubmit = e => {
         e.preventDefault();
@@ -46,6 +47,7 @@ const SignUp = () => {
                         console.log(result);
                         toast.success('User created successfully.');
                         form.reset();
+                        navigate('/login');
                     })
                     .catch(error => {
                         console.error(error);

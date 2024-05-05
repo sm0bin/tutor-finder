@@ -11,7 +11,8 @@ const PopularServices = () => {
     useEffect(() => {
         axios.get(`${import.meta.env.VITE_SERVER}/services`)
             .then(res => setServices(res.data));
-    }, [services])
+    }, [])
+
     return (
         <motion.div
 
@@ -49,10 +50,6 @@ const PopularServices = () => {
                                 </Link>
                             </div>
                         </motion.div>
-
-
-
-
                     )) :
                     <>
                         <Skeleton count={4} />
