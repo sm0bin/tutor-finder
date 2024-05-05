@@ -48,7 +48,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: <Contact></Contact>
+        element: <Contact></Contact>,
+        loader: () => fetch(`${import.meta.env.VITE_SERVER}/faqs`)
       },
       {
         path: "/services",

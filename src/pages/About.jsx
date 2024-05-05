@@ -3,7 +3,7 @@ import { Container, Typography } from "@mui/material";
 
 const About = () => {
     return (
-        <Container maxWidth="md" className="my-12">
+        <Container maxWidth="md" sx={{ my: 12 }}>
             <Helmet>
                 <title>TutorHive | About</title>
             </Helmet>
@@ -53,6 +53,7 @@ const About = () => {
                     fontWeight: 700,
                 }}
             >Why TutorHive?</Typography>
+
             <Typography
                 variant="body1"
                 color="grey.600"
